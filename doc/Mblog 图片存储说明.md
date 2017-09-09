@@ -5,7 +5,7 @@
  - 集成在Tomcat目录下
  - 存储在Tomcat目录以外
 
-###1. 写在之前(mtons.properties介绍)
+### 1. 写在之前(mtons.properties介绍)
  - `store.root` 图片文件存储目录 `store.repo`=absolute 时有效
  - `store.repo` 图片存储模式, 可选值[absolute / relative]; 设置为absolute系统将图片存在`store.root`配置的目录下,relative存储在部署目录下
  - `resource.domain` 是否开启资源域名, 可选值[true/false]; 设置为true为开启,系统中的图片使用 `resource.host`配置的域名+图片目录进行访问, false 直接使用存储的图片目录访问
